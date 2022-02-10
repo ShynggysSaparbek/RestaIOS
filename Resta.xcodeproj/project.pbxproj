@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CB8336F27B52B3D008286DF /* RestaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8336E27B52B3D008286DF /* RestaApp.swift */; };
+		7CB8337127B52B3D008286DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8337027B52B3D008286DF /* ContentView.swift */; };
+		7CB8337327B52B3E008286DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB8337227B52B3E008286DF /* Assets.xcassets */; };
+		7CB8337627B52B3E008286DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB8337527B52B3E008286DF /* Preview Assets.xcassets */; };
+		7CB8337827B52B3E008286DF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8337727B52B3E008286DF /* Persistence.swift */; };
+		7CB8337B27B52B3E008286DF /* Resta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8337927B52B3E008286DF /* Resta.xcdatamodeld */; };
+		7CB8338527B52B3E008286DF /* RestaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8338427B52B3E008286DF /* RestaTests.swift */; };
+		7CB8338F27B52B3E008286DF /* RestaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8338E27B52B3E008286DF /* RestaUITests.swift */; };
+		7CB8339127B52B3E008286DF /* RestaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8339027B52B3E008286DF /* RestaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CB8338127B52B3E008286DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB8336327B52B3D008286DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB8336A27B52B3D008286DF;
+			remoteInfo = Resta;
+		};
+		7CB8338B27B52B3E008286DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB8336327B52B3D008286DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB8336A27B52B3D008286DF;
+			remoteInfo = Resta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CB8336B27B52B3D008286DF /* Resta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB8336E27B52B3D008286DF /* RestaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaApp.swift; sourceTree = "<group>"; };
+		7CB8337027B52B3D008286DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CB8337227B52B3E008286DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CB8337527B52B3E008286DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CB8337727B52B3E008286DF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7CB8337A27B52B3E008286DF /* Resta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Resta.xcdatamodel; sourceTree = "<group>"; };
+		7CB8338027B52B3E008286DF /* RestaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB8338427B52B3E008286DF /* RestaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaTests.swift; sourceTree = "<group>"; };
+		7CB8338A27B52B3E008286DF /* RestaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB8338E27B52B3E008286DF /* RestaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaUITests.swift; sourceTree = "<group>"; };
+		7CB8339027B52B3E008286DF /* RestaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CB8336827B52B3D008286DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB8337D27B52B3E008286DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB8338727B52B3E008286DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CB8336227B52B3D008286DF = {
+			isa = PBXGroup;
+			children = (
+				7CB8336D27B52B3D008286DF /* Resta */,
+				7CB8338327B52B3E008286DF /* RestaTests */,
+				7CB8338D27B52B3E008286DF /* RestaUITests */,
+				7CB8336C27B52B3D008286DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CB8336C27B52B3D008286DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB8336B27B52B3D008286DF /* Resta.app */,
+				7CB8338027B52B3E008286DF /* RestaTests.xctest */,
+				7CB8338A27B52B3E008286DF /* RestaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CB8336D27B52B3D008286DF /* Resta */ = {
+			isa = PBXGroup;
+			children = (
+				7CB8336E27B52B3D008286DF /* RestaApp.swift */,
+				7CB8337027B52B3D008286DF /* ContentView.swift */,
+				7CB8337227B52B3E008286DF /* Assets.xcassets */,
+				7CB8337727B52B3E008286DF /* Persistence.swift */,
+				7CB8337927B52B3E008286DF /* Resta.xcdatamodeld */,
+				7CB8337427B52B3E008286DF /* Preview Content */,
+			);
+			path = Resta;
+			sourceTree = "<group>";
+		};
+		7CB8337427B52B3E008286DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CB8337527B52B3E008286DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CB8338327B52B3E008286DF /* RestaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CB8338427B52B3E008286DF /* RestaTests.swift */,
+			);
+			path = RestaTests;
+			sourceTree = "<group>";
+		};
+		7CB8338D27B52B3E008286DF /* RestaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CB8338E27B52B3E008286DF /* RestaUITests.swift */,
+				7CB8339027B52B3E008286DF /* RestaUITestsLaunchTests.swift */,
+			);
+			path = RestaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CB8336A27B52B3D008286DF /* Resta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB8339427B52B3E008286DF /* Build configuration list for PBXNativeTarget "Resta" */;
+			buildPhases = (
+				7CB8336727B52B3D008286DF /* Sources */,
+				7CB8336827B52B3D008286DF /* Frameworks */,
+				7CB8336927B52B3D008286DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resta;
+			productName = Resta;
+			productReference = 7CB8336B27B52B3D008286DF /* Resta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CB8337F27B52B3E008286DF /* RestaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB8339727B52B3E008286DF /* Build configuration list for PBXNativeTarget "RestaTests" */;
+			buildPhases = (
+				7CB8337C27B52B3E008286DF /* Sources */,
+				7CB8337D27B52B3E008286DF /* Frameworks */,
+				7CB8337E27B52B3E008286DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB8338227B52B3E008286DF /* PBXTargetDependency */,
+			);
+			name = RestaTests;
+			productName = RestaTests;
+			productReference = 7CB8338027B52B3E008286DF /* RestaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CB8338927B52B3E008286DF /* RestaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB8339A27B52B3E008286DF /* Build configuration list for PBXNativeTarget "RestaUITests" */;
+			buildPhases = (
+				7CB8338627B52B3E008286DF /* Sources */,
+				7CB8338727B52B3E008286DF /* Frameworks */,
+				7CB8338827B52B3E008286DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB8338C27B52B3E008286DF /* PBXTargetDependency */,
+			);
+			name = RestaUITests;
+			productName = RestaUITests;
+			productReference = 7CB8338A27B52B3E008286DF /* RestaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CB8336327B52B3D008286DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7CB8336A27B52B3D008286DF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7CB8337F27B52B3E008286DF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7CB8336A27B52B3D008286DF;
+					};
+					7CB8338927B52B3E008286DF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7CB8336A27B52B3D008286DF;
+					};
+				};
+			};
+			buildConfigurationList = 7CB8336627B52B3D008286DF /* Build configuration list for PBXProject "Resta" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CB8336227B52B3D008286DF;
+			productRefGroup = 7CB8336C27B52B3D008286DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CB8336A27B52B3D008286DF /* Resta */,
+				7CB8337F27B52B3E008286DF /* RestaTests */,
+				7CB8338927B52B3E008286DF /* RestaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CB8336927B52B3D008286DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB8337627B52B3E008286DF /* Preview Assets.xcassets in Resources */,
+				7CB8337327B52B3E008286DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB8337E27B52B3E008286DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB8338827B52B3E008286DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CB8336727B52B3D008286DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB8337827B52B3E008286DF /* Persistence.swift in Sources */,
+				7CB8337B27B52B3E008286DF /* Resta.xcdatamodeld in Sources */,
+				7CB8337127B52B3D008286DF /* ContentView.swift in Sources */,
+				7CB8336F27B52B3D008286DF /* RestaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB8337C27B52B3E008286DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB8338527B52B3E008286DF /* RestaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB8338627B52B3E008286DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB8339127B52B3E008286DF /* RestaUITestsLaunchTests.swift in Sources */,
+				7CB8338F27B52B3E008286DF /* RestaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CB8338227B52B3E008286DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB8336A27B52B3D008286DF /* Resta */;
+			targetProxy = 7CB8338127B52B3E008286DF /* PBXContainerItemProxy */;
+		};
+		7CB8338C27B52B3E008286DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB8336A27B52B3D008286DF /* Resta */;
+			targetProxy = 7CB8338B27B52B3E008286DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7CB8339227B52B3E008286DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CB8339327B52B3E008286DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CB8339527B52B3E008286DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Resta/Preview Content\"";
+				DEVELOPMENT_TEAM = 3M64382234;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Resta.develop.Resta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CB8339627B52B3E008286DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Resta/Preview Content\"";
+				DEVELOPMENT_TEAM = 3M64382234;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Resta.develop.Resta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CB8339827B52B3E008286DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M64382234;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Resta.develop.RestaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resta.app/Resta";
+			};
+			name = Debug;
+		};
+		7CB8339927B52B3E008286DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M64382234;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Resta.develop.RestaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resta.app/Resta";
+			};
+			name = Release;
+		};
+		7CB8339B27B52B3E008286DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M64382234;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Resta.develop.RestaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Resta;
+			};
+			name = Debug;
+		};
+		7CB8339C27B52B3E008286DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M64382234;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Resta.develop.RestaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Resta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CB8336627B52B3D008286DF /* Build configuration list for PBXProject "Resta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB8339227B52B3E008286DF /* Debug */,
+				7CB8339327B52B3E008286DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB8339427B52B3E008286DF /* Build configuration list for PBXNativeTarget "Resta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB8339527B52B3E008286DF /* Debug */,
+				7CB8339627B52B3E008286DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB8339727B52B3E008286DF /* Build configuration list for PBXNativeTarget "RestaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB8339827B52B3E008286DF /* Debug */,
+				7CB8339927B52B3E008286DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB8339A27B52B3E008286DF /* Build configuration list for PBXNativeTarget "RestaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB8339B27B52B3E008286DF /* Debug */,
+				7CB8339C27B52B3E008286DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CB8337927B52B3E008286DF /* Resta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CB8337A27B52B3E008286DF /* Resta.xcdatamodel */,
+			);
+			currentVersion = 7CB8337A27B52B3E008286DF /* Resta.xcdatamodel */;
+			path = Resta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CB8336327B52B3D008286DF /* Project object */;
+}
